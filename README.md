@@ -2,9 +2,20 @@
    在ESP32S3运行的MCP服务，给小智扩展计时提醒，闹钟提醒，备忘录三大功能。
 
 <b>一.硬件说明</b><br>
-1.ESP32S3 >=4MB Flash, 无需PSRAM
-我开发时用的是ESP32S3, 此源码编译到ESP32， ESP32C3应该也能运行。
-小智运行的硬件也是ESP32S3,ESP32C3等芯片。本程序是烧录在另一个ESP32S3芯片上运行的，不要弄混淆了。
+1.ESP32S3<br/>
+  Flash大小>=4MB , 无需PSRAM <br/>
+2.MAX98357A<br/>
+MAX98357A   ==>ESP32S3引脚<br/>
+I2S_OUT_BCLK     15<br/>
+I2S_OUT_LRC      16<br/>
+I2S_OUT_DOUT     7<br/>
+3.喇叭<br/>
+连接到MAX98357A<br/>
+淘宝上用 "小智AI语音对话机器人 MINI ESP32-S3-N16R8开发板" 可查到. <br/>
+<img src= 'https://raw.githubusercontent.com/lixy123/xiaozhi_mcp_clock_remark_memo/refs/heads/main/pic/2.jpg' /> <br/>
+
+用ESP32， ESP32C3板也可运行。<br/>
+小智AI所用硬件也是ESP32S3,ESP32C3等芯片。本程序是烧录在另一个ESP32S3芯片上运行的，不是烧录在小智所用硬件上的，不要弄混淆了。
 
 <b>二.源码说明</b><br>
 1.源码环境：<br>
