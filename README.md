@@ -45,7 +45,7 @@ https://my.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS<br>
   在角色介绍中加入如下文字<br>
   
  当用户提到几小时几分钟后提醒我做某事时，我会调用remind_me_time_later的MCP服务。<br>
-当用户要求查询提醒时，我会调用remind_me_read的MCP服务。
+当用户要求查询提醒时，我会调用remind_me_read的MCP服务。<br>
 当用户要求删除提醒时，我会调用remind_me_delete的MCP服务。<br>
 
 当用户提到设置闹钟时，我会调用alarm_clock_set的MCP服务。<br>
