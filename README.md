@@ -31,10 +31,13 @@ F.烧录完后重新上电 (注：有些板烧录完毕能自动重启，不必�
 
 方式2:  固件烧录 （无需准备源码环境，最省事的方法)<br>
 A.下载 flash_download_tool软件<br>
-B.下载编译好的固件: target.bin<br>
+B.下载编译好的固件: target.bin （已上传至：Releases) <br>
 C. target.bin烧录到地址 0x0<br>
 注： flash_download_tool 使用技巧参考：<br>
 https://my.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS<br>
+
+编译好的固件烧录界面:<br/>
+<img src= 'https://raw.githubusercontent.com/lixy123/xiaozhi_mcp_clock_remark_memo/refs/heads/main/pic/1.jpg' /> <br/>
 
 <b>三. 配置</b><br>
 上电后有两种需要配置相关参数：<br>
