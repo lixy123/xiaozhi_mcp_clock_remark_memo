@@ -43,6 +43,7 @@ F.烧录完后重新上电 (注：有些板烧录完毕能自动重启，不必�
 方式2:  固件烧录 （无需准备源码环境，最省事的方法)<br>
 A.下载 flash_download_tool软件<br>
 B.下载编译好的固件: target.bin （已上传至：Releases) <br>
+注：源码是用esp32s3编译的，只能烧录在esp32s3 <br>
 C. target.bin烧录到地址 0x0<br>
 注： flash_download_tool 使用技巧参考：<br>
 https://my.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS<br>
